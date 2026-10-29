@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+       #parent{
+        border: 2px solid black;
+        display: grid;
+        /* grid-template-columns:200px 300px 100px 50px; */
+        /* grid-template-columns: 1fr 2fr 1fr; */
+        /* grid-template-columns:repeat(4,1fr); */
+        /* grid-template-rows: 200px 100px 300px 250px; */
+        /* grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: 400px; */
+
+       }
+       #box1{
+        /* width: 100px; */
+        /* height: 100px; */
+        background-color: rgb(166, 68, 68);
+       }
+        #box2{
+        /* width: 100px; */
+        /* height: 100px; */
+        background-color: rgb(68, 166, 78);
+       }
+        #box3{
+        /* width: 100px; */
+        /* height: 100px; */
+        background-color: rgb(68, 102, 166);
+       }
+        #box4{
+        /* width: 100px; */
+        /* height: 100px; */
+        background-color: rgb(159, 68, 166);
+       }
+    </style>
+</head>
+<body>
+
+    <div id="parent">
+        <div id="box1">box 1</div>
+        <div id="box2">box 2</div>
+        <div id="box3">box 3</div>
+        <div id="box4">box 4</div>
+    </div>
+    
+</body>
+</html>
